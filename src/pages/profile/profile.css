@@ -1,0 +1,404 @@
+.card_Profile::after,
+.card_Profile img {
+  border-radius: 50%;
+}
+.card_Profile,
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card_Profile {
+  padding: 2.5rem 2rem;
+  border-radius: 10px;
+  background: #111;
+  width: 30rem;
+  box-shadow: 0 0 30px #111;
+  margin: 6rem auto;
+  position: relative;
+  transform-style: preserve-3d;
+  overflow: hidden;
+  color: #fff;
+}
+.card_Profile::before,
+.card_Profile::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+.card_Profile::before {
+  width: 100%;
+  height: 100%;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  top: -0.7rem;
+  left: -0.7rem;
+}
+.card_Profile::after {
+  height: 15rem;
+  width: 15rem;
+  background: #fff;
+  top: -8rem;
+  right: -8rem;
+}
+
+.card_Profile img {
+  width: 5rem;
+  box-shadow: 0 0 5px 5px #fff;
+  background: #fff;
+}
+
+.card_Profile .infos {
+  margin-left: 1.5rem;
+}
+
+.card_Profile .name {
+  margin-bottom: 1rem;
+}
+.card_Profile .name h2 {
+  font-size: 1.3rem;
+}
+.card_Profile .name h4 {
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+.card_Profile .text {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.card_Profile .text .span {
+  font-size: 1rem;
+  color: #e91e63;
+}
+.cost_calculation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  box-shadow: 0 0 5px #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.card_Profile .stats {
+  margin-bottom: 1rem;
+}
+.card_Profile .stats li {
+  text-align: center;
+  background: #202020;
+  padding: 5px;
+  border-radius: 5px;
+}
+.card_Profile .stats li h3 {
+  font-size: 1rem;
+  color: #e91e63;
+}
+.card_Profile .stats li h4 {
+  font-size: 0.75rem;
+}
+
+.card_Profile .button_logOut {
+  padding: 5px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* AllExercises */
+.full_AllExercises {
+  padding: 2.5rem 2rem;
+  border-radius: 10px;
+  background: #111;
+  width: 80%;
+  box-shadow: 0 0 30px #111;
+  margin: 6rem auto;
+  position: relative;
+  transform-style: preserve-3d;
+  overflow: hidden;
+  color: #fff;
+}
+
+.AllExercises {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.AllExercises th,
+.AllExercises tbody td {
+  padding: 1rem;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  width: 100%;
+}
+
+.button_Div,
+.add_task {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem;
+}
+.add_task button.button_Exercises {
+  margin: 0;
+}
+button.button_Exercises,
+a.button_Exercises {
+  padding: 5px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: auto;
+}
+a.button_Exercises {
+  width: fit-content;
+}
+
+.button_Exercises:hover {
+  border: 1px solid #e91e63;
+  color: #e91e63;
+}
+
+button.button_Exercises.Done {
+  background-color: #45a049;
+}
+button.button_Exercises.Done svg {
+  font-size: 20px;
+}
+.button_Div button.button_Exercises {
+  font-size: 2rem;
+}
+
+td.data_Exercises_img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+td.data_Exercises_img img {
+  width: 6rem;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+thead tr {
+  text-wrap: nowrap;
+}
+
+/* AddTask */
+.full_AddTask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.full_AddTask .form-card {
+  position: relative;
+  width: 100%;
+}
+.full_AddTask input.form-input {
+  padding: 20px 25px 15px;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  box-sizing: border-box;
+  color: #fff !important;
+}
+.full_AddTask label.form-label {
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: 0.3s;
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #fff;
+}
+.full_AddTask .input_AddTask {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  margin: 5rem auto;
+}
+.full_AddTask input.form-input:focus ~ .form-valid,
+.full_AddTask input.form-input:focus ~ .form-label {
+  color: #fff;
+  top: 30%;
+  transform: translateY(-70%);
+  font-size: 13px;
+  line-height: 23px;
+}
+.full_AddTask svg {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  box-shadow: 0 0 5px #fff;
+  border-radius: 50%;
+}
+/* ENd AddTask */
+
+/* dataHistory button */
+.dataHistory {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dataHistory .button {
+  background-color: #ffffff00;
+  width: 8.5em;
+  height: 2.9em;
+  border: #111 0.2em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+  color: #111;
+  margin: 1rem auto;
+}
+
+.dataHistory .button:hover {
+  background: #111;
+  cursor: pointer;
+  color: #fff;
+}
+
+.dataHistory .button svg {
+  width: 1.6em;
+  margin: -0.2em 0.8em 1em;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+
+.dataHistory .button:hover svg {
+  transform: translateX(5px);
+}
+
+.dataHistory .button_more {
+  margin: 0 1.5em;
+}
+/* End dataHistory */
+
+/* congratulations_quit_smoking */
+.congratulations_quit_smoking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+  gap: 5rem;
+}
+.congratulations_quit_smoking img {
+  width: 20rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 3rem #fff;
+  animation: congratulations_quit 1s ease-in-out infinite;
+  transform: scale(1);
+}
+
+@keyframes congratulations_quit {
+  0% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.congratulations_quit_smoking .input_AddTask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.congratulations_quit_smoking .form-card {
+  position: relative;
+  width: 100%;
+}
+
+.congratulations_quit_smoking textarea.form-input {
+  padding: 20px 25px 15px;
+  width: 20rem;
+  height: 15rem;
+  resize: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  box-sizing: border-box;
+  color: #fff !important;
+}
+.congratulations_quit_smoking label.form-label {
+  position: absolute;
+  left: 25px;
+  top: 20%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: 0.3s;
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.congratulations_quit_smoking textarea.form-input:focus ~ .form-valid,
+.congratulations_quit_smoking textarea.form-input:focus ~ .form-label {
+  color: #fff;
+  top: 7%;
+  transform: translateY(-70%);
+  font-size: 13px;
+  line-height: 23px;
+}
+/* End congratulations_quit_smoking */
+
+@media (max-width: 1023px) {
+  .card_Profile .infos {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+  .card_Profile {
+    width: 20rem;
+  }
+  .full_AllExercises {
+    padding: 1.5rem 1rem;
+    width: 100%;
+    overflow: auto;
+  }
+  td.data_Exercises_img img {
+    width: 4rem;
+  }
+}
