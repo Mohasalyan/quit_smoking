@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Navigate } from "react-router-dom";
 import { FaTasks } from "react-icons/fa";
 import { BsCheckLg } from "react-icons/bs";
-import Walk from "../../../assets/Walk.webp";
-import Read from "../../../assets/Read.webp";
-import Squat from "../../../assets/Squat.webp";
+import Walk from "../../../../public/assets/Walk.webp";
+import Read from "../../../../public/assets/Read.webp";
+import Squat from "../../../../public/assets/Squat.webp";
 import "../profile.css";
 
 const TaskHistory = () => {
@@ -47,7 +47,7 @@ const TaskHistory = () => {
   if (loginData === "true") {
     return (
       <section>
-        {dataHistory &&
+        {dataHistory && dataHistory.length > 0 ? (
           displayedData.map((data, index) => (
             <div className="full_AllExercises" key={index}>
               <h2>
@@ -132,7 +132,12 @@ const TaskHistory = () => {
                 </tbody>
               </table>
             </div>
-          ))}
+          ))
+        ) : (
+          <div className="full_AllExercises">
+            <p>No information available about Task</p>
+          </div>
+        )}
 
         <div className="dataHistory">
           {showMoreButton && (

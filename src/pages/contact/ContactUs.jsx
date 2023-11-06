@@ -24,7 +24,7 @@ const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Data model:", formData);
+    console.log("بيانات النموذج:", formData);
   };
 
   return (

@@ -1,54 +1,24 @@
 import React from "react";
 import "./profile.css";
-import ImgMan from "../../assets/man.webp";
-import ImgWoman from "../../assets/woman.webp";
+import ImgMan from "../../../public/assets/man.webp";
+import ImgWoman from "../../../public/assets/woman.webp";
 import { NavLink, Navigate } from "react-router-dom";
+import useUserData from "../../utilities/hook/useUserData";
 
 const Profile = () => {
   const loginData = localStorage.getItem("login");
 
   if (loginData === "true") {
-    const userData = JSON.parse(localStorage.getItem("user_data")) || {};
-
-    const emailPrefix = userData.emailSignUp.split("@")[0];
-
-    ///////////////
-
-    const dateSignUp = userData.date_SignUp;
-
-    const [day, month, year] = dateSignUp.split("-").map(Number);
-
-    const monthNames = [
-      "January",
-      "February",
-      "March",
-      "April",
-      "May",
-      "June",
-      "July",
-      "August",
-      "September",
-      "October",
-      "November",
-      "December",
-    ];
-
-    const formattedDate = `${day} / ${monthNames[month - 1]} / ${year}`;
-
-    ///////////////
-
-    const number_cigarettes = userData.number_smoke_daily;
-
-    const cigarette_price = userData.Price_cigarettes;
-
-    const calculate_today = (
-      (cigarette_price / 20) *
-      number_cigarettes
-    ).toFixed(2);
-
-    const calculate_month = (calculate_today * 30).toFixed(2);
-
-    const calculate_year = (calculate_month * 12).toFixed(2);
+    const {
+      userData,
+      emailPrefix,
+      formattedDate,
+      number_cigarettes,
+      cigarette_price,
+      calculate_today,
+      calculate_month,
+      calculate_year,
+    } = useUserData();
 
     return (
       <div className="card_Profile">

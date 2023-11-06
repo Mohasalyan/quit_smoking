@@ -1,7 +1,7 @@
 export const info_blog = [
   {
     name_id: 1,
-    image: "../../../src/assets/img_blog/blog_1.webp",
+    image: "../../../public/assets/img_blog/blog_1.webp",
     title: "Quit smoking: 10 ways to resist tobacco cravings",
     brief_description:
       "Tobacco cravings can be debilitating for anyone trying to quit smoking. Follow these tips to reduce and combat these urges.",
@@ -11,7 +11,7 @@ export const info_blog = [
   },
   {
     name_id: 2,
-    image: "../../../src/assets/img_blog/blog_2.webp",
+    image: "../../../public/assets/img_blog/blog_2.webp",
     title:
       "Overcoming Smoking Addiction: 10 Strategies to Overcome Tobacco Cravings",
     brief_description:
@@ -22,7 +22,7 @@ export const info_blog = [
   },
   {
     name_id: 3,
-    image: "../../../src/assets/img_blog/blog_3.webp",
+    image: "../../../public/assets/img_blog/blog_3.webp",
     title:
       "Overcoming Smoking Addiction: 10 Strategies to Overcome Tobacco Cravings",
     brief_description:
@@ -33,7 +33,7 @@ export const info_blog = [
   },
   {
     name_id: 4,
-    image: "../../../src/assets/img_blog/blog_4.webp",
+    image: "../../../public/assets/img_blog/blog_4.webp",
     title:
       "Overcoming Smoking Addiction: 10 Strategies to Overcome Tobacco Cravings",
     brief_description:
@@ -44,7 +44,7 @@ export const info_blog = [
   },
   {
     name_id: 5,
-    image: "../../../src/assets/img_blog/blog_5.webp",
+    image: "../../../public/assets/img_blog/blog_5.webp",
     title:
       "Overcoming Smoking Addiction: 10 Strategies to Overcome Tobacco Cravings",
     brief_description:

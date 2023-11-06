@@ -1,5 +1,5 @@
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
-import quit_smoking from "../../assets/logo.webp";
+import quit_smoking from "../../../public/assets/logo.webp";
 import "./header.css";
 import { useEffect, useState } from "react";
 import { useAuth } from "../../Auth/ConditionAuth";

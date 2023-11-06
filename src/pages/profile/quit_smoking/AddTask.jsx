@@ -20,7 +20,6 @@ const AddTask = ({
 
   const updateItemInLocalStorage = () => {
     if (inputValue.length >= 1) {
-
       const localStorageData = JSON.parse(
         localStorage.getItem("tableQuitSmoking")
       );

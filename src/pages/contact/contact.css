@@ -1,6 +1,6 @@
 .form-main {
   background: linear-gradient(to bottom, #11111124, #11111124),
-    url(../../assets/contact-us.webp) no-repeat center;
+    url(../../public/assets/contact-us.webp) no-repeat center;
   background-size: cover;
   min-height: 90vh;
   display: flex;

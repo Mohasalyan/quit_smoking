@@ -4,12 +4,12 @@ import ScrollVisibility from "../../../components/ScrollVisibility/ScrollVisibil
 
 
 export const slider_data = [
-  { image: "../../../../src/assets/img_slider/slider_1.webp" },
-  { image: "../../../../src/assets/img_slider/slider_2.webp" },
-  { image: "../../../../src/assets/img_slider/slider_3.webp" },
-  { image: "../../../../src/assets/img_slider/slider_4.webp" },
-  { image: "../../../../src/assets/img_slider/slider_5.webp" },
-  { image: "../../../../src/assets/img_slider/slider_6.webp" },
+  { image: "../../../../public/assets/img_slider/slider_1.webp" },
+  { image: "../../../../public/assets/img_slider/slider_2.webp" },
+  { image: "../../../../public/assets/img_slider/slider_3.webp" },
+  { image: "../../../../public/assets/img_slider/slider_4.webp" },
+  { image: "../../../../public/assets/img_slider/slider_5.webp" },
+  { image: "../../../../public/assets/img_slider/slider_6.webp" },
 ];
 
 const AutomaticSlideshow = () => {

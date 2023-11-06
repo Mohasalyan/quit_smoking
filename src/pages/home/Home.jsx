@@ -1,5 +1,5 @@
 import React from "react";
-import quit_smoking from "../../assets/quit_smoking_1.webp";
+import quit_smoking from "../../../public/assets/quit_smoking_1.webp";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import AutomaticSlideshow from "./slider/AutomaticSlideshow";
 import Info from "./information/Info";
