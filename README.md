@@ -67,6 +67,6 @@ To get started with this project, you need to have Node.js and npm (Node Package
 - `README.md`: This documentation.
 - `vite.config.js`: Vite configuration file.
 
-<img src="5.jpeg" alt="Trulli" width="500" height="333">
 
+![Alt Text](5.jpeg)
 
