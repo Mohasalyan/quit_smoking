@@ -1,8 +1,38 @@
-# React + Vite
+# Quit Smoking App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web application designed to help users quit smoking by providing a structured plan and tracking their progress.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [License](#license)
+
+## Overview
+
+The "Quit Smoking" app is a tool that aims to assist individuals in their journey to quit smoking. It offers features such as creating a personalized quit smoking plan, tracking daily progress, and providing useful information and resources to support the quitting process.
+
+## Features
+
+- User registration and authentication
+- Personalized quit smoking plan
+- Daily tasks and exercises to reduce cravings
+- Task history to track progress
+- Blogs and resources for quitting support
+- Feedback and summary submission
+
+## Technologies Used
+
+- React: A JavaScript library for building user interfaces.
+- React Router: For handling routing and navigation within the app.
+- Vite: A fast, opinionated web build tool.
+- ESLint: A linter tool for identifying and fixing problems in JavaScript code.
+- React Icons: Icons library for easy integration of icons in the app.
+- React Toastify: For displaying informative toast messages.
+- Other related libraries and tools.
+
+## Getting Started
